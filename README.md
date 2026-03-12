@@ -1,5 +1,5 @@
 # Quantitative Finance Portfolio
-
+Python | Quantitative Finance | Financial Engineering | Algorithmic Trading
 Welcome to my Quantitative Finance and Financial Engineering portfolio.
 
 This repository contains financial models and data analysis projects developed using Python as part of my learning journey in the Master of Science in Financial Engineering.
