@@ -22,7 +22,8 @@ Python
 NumPy
 Matplotlib
 SciPy
-
+## Example Output
+![Yield Curve](yield_curve_plot.png)
 ## Applications
 
 Bond pricing
