@@ -1,28 +1,35 @@
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
+# Quantitative Finance Portfolio
 
-# Simulated stock price data
-np.random.seed(42)
-price = np.cumsum(np.random.normal(0,1,200)) + 100
+Welcome to my Quantitative Finance and Financial Engineering portfolio.
 
-data = pd.DataFrame({"Price":price})
+This repository contains financial models and data analysis projects developed using Python as part of my learning journey in the Master of Science in Financial Engineering.
 
-# Moving averages
-data["MA_short"] = data["Price"].rolling(window=10).mean()
-data["MA_long"] = data["Price"].rolling(window=30).mean()
+## Projects
 
-# Trading signals
-data["Signal"] = 0
-data.loc[data["MA_short"] > data["MA_long"], "Signal"] = 1
-data.loc[data["MA_short"] < data["MA_long"], "Signal"] = -1
+### Yield Curve Modeling
+Implementation of the Nelson-Siegel model to estimate the term structure of interest rates.
 
-# Plot strategy
-plt.plot(data["Price"], label="Price")
-plt.plot(data["MA_short"], label="Short MA")
-plt.plot(data["MA_long"], label="Long MA")
+### Portfolio Optimization
+Markowitz Mean-Variance portfolio optimization to determine optimal asset allocation.
 
-plt.title("Moving Average Trading Strategy")
-plt.legend()
+### Risk Management
+Value at Risk (VaR) model for estimating portfolio downside risk.
 
-plt.show()
+### Option Pricing
+Black-Scholes model for pricing European call options.
+
+### Algorithmic Trading Strategy
+Moving average crossover strategy for generating trading signals.
+
+## Tools Used
+
+Python  
+NumPy  
+Pandas  
+Matplotlib  
+SciPy  
+
+## Author
+
+Gbenga Olufisayo  
+Master of Science in Financial Engineering
