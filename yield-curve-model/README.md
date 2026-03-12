@@ -27,8 +27,8 @@ Matplotlib
 SciPy
 
 ## Applications
-
-Bond pricing
-Interest rate modeling
-Risk management
+Bond pricing  
+Interest rate modeling  
+Risk management  
 Portfolio construction
+
