@@ -32,3 +32,7 @@ Interest rate modeling
 Risk management  
 Portfolio construction
 
+## Author
+Gbenga Olufisayo  
+Master of Science in Financial Engineering  
+Python | Quantitative Finance | Risk Modeling
