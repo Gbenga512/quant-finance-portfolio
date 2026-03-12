@@ -20,11 +20,12 @@ These factors allow the model to flexibly fit real-world yield curve shapes.
 ![Yield Curve](yield_curve_plot.png)
 
 ## Tools Used
-
-Python
-NumPy
-Matplotlib
+Python  
+NumPy  
+Pandas  
+Matplotlib  
 SciPy
+
 ## Applications
 
 Bond pricing
