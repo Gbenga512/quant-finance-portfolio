@@ -15,6 +15,10 @@ Slope – short-term rate movement
 Curvature – medium-term hump in the yield curve
 
 These factors allow the model to flexibly fit real-world yield curve shapes.
+## Example Output
+
+![Yield Curve](yield_curve_plot.png)
+
 
 ## Tools Used
 
