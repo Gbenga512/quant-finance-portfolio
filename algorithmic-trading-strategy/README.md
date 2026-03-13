@@ -11,10 +11,6 @@ The strategy analyzes historical market data and generates trading signals based
 - Strategy backtesting
 - Performance visualization
 
-## Files
-trading_strategy.py → main trading algorithm  
-trading_strategy_real_data.png → strategy performance output
-
 ## Project Structure
 
 trading_strategy.py → main trading algorithm
