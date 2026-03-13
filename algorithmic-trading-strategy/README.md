@@ -23,3 +23,6 @@ Matplotlib
 
 ## Goal
 Demonstrate practical quantitative trading model development.
+## Strategy Output
+
+![Trading Strategy Result](trading_strategy_real_data.png)
