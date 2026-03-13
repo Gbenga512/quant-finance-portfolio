@@ -1,3 +1,6 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Quant Finance](https://img.shields.io/badge/Finance-Quantitative-green)
+![Algorithmic Trading](https://img.shields.io/badge/Trading-Algorithmic-orange)
 # Algorithmic Trading Strategy
 
 This project implements a simple algorithmic trading strategy using Python.
